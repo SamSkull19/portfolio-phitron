@@ -18,6 +18,19 @@
     margin-top: 10px;
 }
 
+.project_img{
+    width: 400px;
+    height: 400px;
+}
+.margin_t{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.text_justify{
+  text-align: justify;
+}
+
 .font_secondary{
     font-size: var(--secondary_font);
 }
