@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary_color: #11172A;
+    --primary_font: 24px;
+}
+
+.bg_primary{
+    background-color: var(--primary_color);
+}
+
+.w_200{
+    width: 200px;
+}
+
+
+
+@media (max-width: 768px) {
+  .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 80%;
+    width: auto;
+    z-index: 999;
+  }
+}
