@@ -6,6 +6,7 @@
 :root{
     --primary_color: #11172A;
     --primary_font: 24px;
+    --secondary_font: 50px;
 }
 
 .bg_primary{
@@ -13,10 +14,13 @@
 }
 
 .w_200{
-    width: 200px;
+    width: 150px;
+    margin-top: 10px;
 }
 
-
+.font_secondary{
+    font-size: var(--secondary_font);
+}
 
 @media (max-width: 768px) {
   .navbar-collapse {
